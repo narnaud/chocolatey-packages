@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>jpegtran</id>
+    <version>9.0</version>
+    <title>JpegTran</title>
+    <authors>Thomas G. Lane, Guido Vollbeding</authors>
+    <owners>narnaud</owners>
+    <summary>jpegtran performs various useful transformations of JPEG files.</summary>
+    <description>It can translate the coded representation from one variant of JPEG to another, for example from baseline JPEG to progressive JPEG or vice versa.  It can also perform some rearrangements of the image data, for example turning an image from landscape to portrait format by rotation.
+	
+	jpegtran works by rearranging the compressed data (DCT coefficients), without ever fully decoding the image.  Therefore, its transformations are lossless: there is no image degradation at all, which would not be true if you used djpeg followed by cjpeg to accomplish the same conversion.  But by the same token, jpegtran cannot perform lossy operations such as changing the image quality.</description>
+    <projectUrl>http://jpegclub.org/jpegtran/</projectUrl>
+    <tags>exif image</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+</package>
