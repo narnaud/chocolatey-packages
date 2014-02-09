@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>drmemory</id>
+    <version>1.6.1.2</version>
+    <title>Dr. Memory</title>
+    <authors>VMWare, Google</authors>
+    <owners>narnaud</owners>
+    <summary>Memory Debugger for Windows and Linux</summary>
+	<description>Dr. Memory is a memory monitoring tool capable of identifying memory-related programming errors such as accesses of uninitialized memory, accesses to unaddressable memory (including outside of allocated heap units and heap underflow and overflow), accesses to freed memory, double frees, memory leaks, and (on Windows) access to un-reserved thread local storage slots.
+	
+	Dr. Memory operates on unmodified application binaries running on Windows or Linux on commodity IA-32 and AMD64 hardware. Dr. Memory currently targets 32-bit applications only.
+	
+	Dr. Memory is built on the DynamoRIO dynamic instrumentation tool platform.</description>
+    <projectUrl>http://www.drmemory.org/</projectUrl>
+    <tags>memory profiler dev</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<licenseUrl>http://www.gnu.org/licenses/lgpl-2.1.html</licenseUrl>
+	<dependencies>
+      <dependency id="drmemory.install" version="1.6.1.2" />
+    </dependencies> 
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
