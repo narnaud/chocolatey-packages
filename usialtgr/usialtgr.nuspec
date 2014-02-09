@@ -5,7 +5,7 @@
     <version>1.4</version>
     <title>USiAltGr</title>
     <authors>Mathijs Miermans</authors>
-    <owners>Nicolas Arnaud-Cormos</owners>
+    <owners>narnaud</owners>
     <summary>USA International (AltGr dead keys) on Windows</summary>
     <description>AltGr is simply right alt key on PC keyboards, used to type many special characters. On Windows it is equivalent to Ctrl+Alt.
 	
