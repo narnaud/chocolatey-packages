@@ -11,7 +11,9 @@
 	
 	Dr. Memory operates on unmodified application binaries running on Windows or Linux on commodity IA-32 and AMD64 hardware. Dr. Memory currently targets 32-bit applications only.
 	
-	Dr. Memory is built on the DynamoRIO dynamic instrumentation tool platform.</description>
+	Dr. Memory is built on the DynamoRIO dynamic instrumentation tool platform.
+	
+	NOTE: this package add the drmemory bin directory to the user path.</description>
     <projectUrl>http://www.drmemory.org/</projectUrl>
     <tags>memory profiler dev</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
