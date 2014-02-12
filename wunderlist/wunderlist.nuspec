@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>wunderlist</id>
-    <version>2.3.0</version>
-    <title>Charm Time Tracker</title>
+    <version>2.3.0.31</version>
+    <title>Wunderlist</title>
     <authors>6wunderkinder</authors>
     <owners>narnaud</owners>
     <summary>Todo list application</summary>
