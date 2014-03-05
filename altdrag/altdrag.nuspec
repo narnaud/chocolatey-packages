@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>altdrag</id>
+    <version>1.0</version>
+    <title>AltDrag</title>
+    <authors>Stefan Sundin</authors>
+    <owners>narnaud</owners>
+    <summary>Easily drag windows when pressing the alt key</summary>
+    <description>AltDrag gives you the ability to move and resize your windows in a new way. After you have started AltDrag, you can simply hold down the Alt key and then click and drag any window. Besides just moving windows, you can resize, maximize and close them too. AltDrag simply allows you to do more with less mouse movements.
+
+	This behavior already exists in Linux and other operating systems, and AltDrag was made with the mission to copy that behavior to the Windows platform. I believe I have succeeded with this and also added a lot of new intuitive functionality that makes your everyday computing a little easier.</description>
+    <projectUrl>https://code.google.com/p/altdrag/</projectUrl>
+    <tags>drag windows</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
