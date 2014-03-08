@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ubuntu.font</id>
+    <version>0.80</version>
+    <title>Ubuntu Font</title>
+    <authors>Canonical</authors>
+    <owners>narnaud</owners>
+    <summary>Ubuntu Font Family</summary>
+    <description>The way typography is used says as much about our brand as the words themselves.
+	
+	The Ubuntu typeface has been specially created to complement the Ubuntu tone of voice. It has a contemporary style and contains characteristics unique to the Ubuntu brand that convey a precise, reliable and free attitude.</description>
+    <projectUrl>http://font.ubuntu.com/</projectUrl>
+    <tags>ubuntu font</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<licenseUrl>http://font.ubuntu.com/licence/</licenseUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

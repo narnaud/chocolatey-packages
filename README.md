@@ -12,6 +12,7 @@ This is a repository of the packages I maintain for the [Chocolatey Package Mana
  * [Wunderlist](https://www.wunderlist.com/)
  * [AltDrag](https://code.google.com/p/altdrag/)
  * [Lato Font](http://latofonts.com/)
+ * [Ubuntu Font](http://font.ubuntu.com/)
 
 ## Existing updated packages:
  * [ActivePerl](http://chocolatey.org/packages/ActivePerl) - from Alan Stevens
