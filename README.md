@@ -13,6 +13,7 @@ This is a repository of the packages I maintain for the [Chocolatey Package Mana
  * [AltDrag](https://code.google.com/p/altdrag/)
  * [Lato Font](http://latofonts.com/)
  * [Ubuntu Font](http://font.ubuntu.com/)
+ * [Harropad](http://pad.haroopress.com/user.html)
 
 ## Existing updated packages:
  * [ActivePerl](http://chocolatey.org/packages/ActivePerl) - from Alan Stevens
