@@ -1,6 +1,6 @@
 $packageName = 'cwrsync'
-$version = '3.1.0'
-$url = 'https://www.itefix.no/i2/sites/all/modules/pubdlcnt/pubdlcnt.php?file=https://www.itefix.no/download/cwRsync_5.2.2_Free.zip'
+$version = 'cwRsync_5.3.0_Free'
+$url = 'https://www.itefix.no/download/cwRsync_5.3.0_Free.zip'
 
 try {
   $installDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
