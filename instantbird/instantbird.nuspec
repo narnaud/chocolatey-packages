@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>instantbird</id>
+    <version>1.5.0</version>
+    <title>Instantbird</title>
+    <authors>Florian Quèze, Quentin Castier, Quentin Raynaud</authors>
+    <owners>narnaud</owners>
+    <summary>Multi-protocols instant messaging application</summary>
+    <description>With Instantbird, we intend to redefine the way instant messaging is used, so that it works the way you want. Both simple and powerful, it will help you manage all your real time communications.</description>
+    <projectUrl>http://instantbird.com/</projectUrl>
+    <tags>chat irc jabber</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
