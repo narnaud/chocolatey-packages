@@ -4,6 +4,7 @@ This is a repository of the packages I maintain for the [Chocolatey Package Mana
 
 ## New packages:
 
+ * [cwRsync](http://chocolatey.org/packages/cwrsync)
  * [drmemory](http://www.drmemory.org/)
  * [jhead](http://www.sentex.net/~mwandel/jhead/)
  * [jpegtran](http://jpegclub.org/jpegtran/)
@@ -14,9 +15,9 @@ This is a repository of the packages I maintain for the [Chocolatey Package Mana
  * [Lato Font](http://latofonts.com/)
  * [Ubuntu Font](http://font.ubuntu.com/)
  * [Harropad](http://pad.haroopress.com/user.html)
+ * [Instantbird](http://instantbird.com/)
 
 ## Existing updated packages:
  * [ActivePerl](http://chocolatey.org/packages/ActivePerl) - from Alan Stevens
- * [cwRsync](http://chocolatey.org/packages/cwrsync) - from Patrick Wyatt
  * [PureText](http://chocolatey.org/packages/puretext) - from jasondenizac
 
