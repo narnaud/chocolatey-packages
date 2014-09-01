@@ -16,6 +16,7 @@ This is a repository of the packages I maintain for the [Chocolatey Package Mana
  * [Ubuntu Font](http://font.ubuntu.com/)
  * [Harropad](http://pad.haroopress.com/user.html)
  * [Instantbird](http://instantbird.com/)
+ * [Todoist](https://www.todoist.com/)
 
 ## Existing updated packages:
  * [ActivePerl](http://chocolatey.org/packages/ActivePerl) - from Alan Stevens
