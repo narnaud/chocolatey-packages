@@ -17,6 +17,7 @@ This is a repository of the packages I maintain for the [Chocolatey Package Mana
  * [Harropad](http://pad.haroopress.com/user.html)
  * [Instantbird](http://instantbird.com/)
  * [Todoist](https://www.todoist.com/)
+ * [kpcli](http://kpcli.sourceforge.net/)
 
 ## Existing updated packages:
  * [ActivePerl](http://chocolatey.org/packages/ActivePerl) - from Alan Stevens
