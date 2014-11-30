@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>wunderlist</id>
-    <version>2.3.0.31</version>
+    <version>3.1.9</version>
     <title>Wunderlist</title>
-    <authors>6wunderkinder</authors>
+    <authors>6 Wunderkinder GmBH</authors>
     <owners>narnaud</owners>
     <summary>Todo list application</summary>
     <description>Wunderlist is the easiest way to manage and share your to-do lists. Whether you’re planning an overseas adventure, sharing a shopping list with a loved one or running your very own business, Wunderlist is here to help you achieve great things.</description>
