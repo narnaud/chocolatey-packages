@@ -11,6 +11,7 @@
     <projectUrl>https://www.wunderlist.com/</projectUrl>
     <tags>todo task manager</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/narnaud/chocolatey-packages/master/wunderlist/wunderlist.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
