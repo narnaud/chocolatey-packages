@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>haroopad</id>
-    <version>0.12.2</version>
+    <version>0.12.2.1</version>
     <title>Haroopad</title>
     <authors>Rhio Kim</authors>
     <owners>narnaud</owners>
@@ -16,6 +16,7 @@
     <tags>editor markdown text</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <iconUrl>https://cdn.rawgit.com/narnaud/chocolatey-packages/master/haroopad/haroopad.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
