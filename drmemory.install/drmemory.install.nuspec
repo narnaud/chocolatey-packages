@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>drmemory.install</id>
-    <version>1.6.1.2</version>
+    <version>1.8.0.8</version>
     <title>Dr. Memory (Install)</title>
     <authors>VMWare, Google</authors>
     <owners>narnaud</owners>

@@ -1,5 +1,5 @@
 $packageName = 'drmemory.install'
-$url = 'https://drmemory.googlecode.com/files/DrMemory-Windows-1.6.1-2.exe'
+$url = 'http://dl.bintray.com/bruening/DrMemory/DrMemory-Windows-1.8.0-8.exe'
 
 try {
   $installDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
