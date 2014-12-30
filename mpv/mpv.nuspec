@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>mpv</id>
+    <version>0.7.2</version>
+    <title>mpv</title>
+    <authors>mpv team</authors>
+    <owners>narnaud</owners>
+    <summary>Free, open source, and cross-platform media player</summary>
+	<description>mpv is a movie player based on MPlayer and mplayer2. It supports a wide variety of video file formats, audio and video codecs, and subtitle types.
+    
+    If you are wondering what's different from mplayer2 and MPlayer you can read more about the [changes](https://github.com/mpv-player/mpv/blob/master/DOCS/man/changes.rst).</description>
+    <projectUrl>http://mpv.io/</projectUrl>
+    <tags>multimedia player media mplayer</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <iconUrl>https://cdn.rawgit.com/narnaud/chocolatey-packages/master/mpv/mpv.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
