@@ -7,11 +7,13 @@
     <authors>VMWare, Google</authors>
     <owners>narnaud</owners>
     <summary>Memory Debugger for Windows and Linux</summary>
-	<description>Dr. Memory is a memory monitoring tool capable of identifying memory-related programming errors such as accesses of uninitialized memory, accesses to unaddressable memory (including outside of allocated heap units and heap underflow and overflow), accesses to freed memory, double frees, memory leaks, and (on Windows) access to un-reserved thread local storage slots.
+    <description>
+Dr. Memory is a memory monitoring tool capable of identifying memory-related programming errors such as accesses of uninitialized memory, accesses to unaddressable memory (including outside of allocated heap units and heap underflow and overflow), accesses to freed memory, double frees, memory leaks, and (on Windows) access to un-reserved thread local storage slots.
 	
-	Dr. Memory operates on unmodified application binaries running on Windows or Linux on commodity IA-32 and AMD64 hardware. Dr. Memory currently targets 32-bit applications only.
+Dr. Memory operates on unmodified application binaries running on Windows or Linux on commodity IA-32 and AMD64 hardware. Dr. Memory currently targets 32-bit applications only.
 	
-	Dr. Memory is built on the DynamoRIO dynamic instrumentation tool platform.</description>
+Dr. Memory is built on the DynamoRIO dynamic instrumentation tool platform.
+    </description>
     <projectUrl>http://www.drmemory.org/</projectUrl>
     <tags>memory profiler dev</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
