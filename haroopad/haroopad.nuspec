@@ -18,7 +18,7 @@ Haroopad gives you the same editing experience regardless of the platform you ar
     <tags>editor markdown text</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
-    <iconUrl>https://cdn.rawgit.com/narnaud/chocolatey-packages/master/haroopad/haroopad.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/narnaud/chocolatey-packages/9672f0a1524cbf606351cfb4b0b2a86270c11d4d/haroopad/haroopad.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
