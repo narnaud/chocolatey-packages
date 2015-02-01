@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ptime</id>
+    <title>ptime</title>
+    <version>1.0</version>
+    <authors>Jem Berkes</authors>
+    <owners>narnaud</owners>
+    <summary>Accurately measure program execution time</summary>
+    <description>
+ptime will run any specified command and parameters, and measure the execution time (run time) in seconds, accurate to 5 millisecond or better. It is an automatic process timer, or program timer used for benchmark purposes.
+    </description>
+    <projectUrl>http://www.pc-tools.net/win32/ptime/</projectUrl>
+    <tags>ptime time command</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
