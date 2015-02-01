@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>instantbird</id>
+    <title>Instantbird</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Florian Quèze, Quentin Castier, Quentin Raynaud</authors>
+    <owners>narnaud</owners>
+    <summary>Multi-protocols instant messaging application</summary>
+    <description>
+With Instantbird, we intend to redefine the way instant messaging is used, so that it works the way you want. Both simple and powerful, it will help you manage all your real time communications.
+    </description>
+    <projectUrl>http://instantbird.com/</projectUrl>
+    <tags>instantbird chat irc jabber aim yahoo twitter</tags>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://cdn.rawgit.com/narnaud/chocolatey-packages/master/icons/instantbird.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
