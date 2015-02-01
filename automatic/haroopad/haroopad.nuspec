@@ -1,9 +1,10 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>haroopad</id>
-    <version>0.13.0</version>
     <title>Haroopad</title>
+    <version>{{PackageVersion}}</version>
     <authors>Rhio Kim</authors>
     <owners>narnaud</owners>
     <summary>Markdown editor</summary>
@@ -16,9 +17,9 @@ Haroopad gives you the same editing experience regardless of the platform you ar
     </description>
     <projectUrl>http://pad.haroopress.com/user.html</projectUrl>
     <tags>editor markdown text</tags>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
-    <iconUrl>https://cdn.rawgit.com/narnaud/chocolatey-packages/9672f0a1524cbf606351cfb4b0b2a86270c11d4d/haroopad/haroopad.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/narnaud/chocolatey-packages/master/icons/haroopad.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
