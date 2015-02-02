@@ -1,21 +1,22 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>qtbinpatcher</id>
-    <version>2.1.1</version>
     <title>QtBinPatcher</title>
+    <version>2.1.1</version>
     <authors>Yuri V. Krugloff</authors>
     <owners>narnaud</owners>
     <summary>Command line program for change paths into a binary files of library Qt</summary>
     <description>
 QtBinPatcher - it is a command line program for change paths into a binary files of library Qt. When porting applications made on the basis of Qt, edit paths is not necessary, but if you want to transfer to a different location the library itself, the difficulties arise.
     
-Qt installer contains the patcher for rewriting the path in files. However, the patcher is integrated into the installer, and depends on the library Qt, which, in many cases, it is inconvenient. QtBinPatcher independent of Qt and uses only standard C++ libraries.
+Qt installer contains the patcher for rewriting the path in files. However, the patcher is integrated into the installer, and depends on the library Qt, which, in many cases, it is inconvenient. QtBinPatcher independent of Qt and uses only standard C++ libraries.    	
     </description>
     <projectUrl>http://www.tver-soft.org/programs/qtbinpatcher</projectUrl>
-    <tags>qt dev patch</tags>
+    <tags>qt dev patch qmake</tags>
+    <copyright></copyright>
+    <licenseUrl>https://cdn.rawgit.com/tver-soft/QtBinPatcher/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<licenseUrl>https://cdn.rawgit.com/tver-soft/QtBinPatcher/master/LICENSE.txt</licenseUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
