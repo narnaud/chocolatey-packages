@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="7b4c15e4-f7be-49ee-945c-7239ee574575">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="85f9af41-5937-4388-938d-ff53d23d8402">
     <SourceTemplate><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
@@ -29,7 +29,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>StartEnd</VariableType>
             <Regex />
-            <Url><placeholder name="Url with version information" value="http://pad.haroopress.com/user.html" /></Url>
+            <Url><placeholder name="Url with version information" value="https://www.itefix.net/content/cwrsync-free-edition" /></Url>
             <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
   &lt;TR&gt;
     &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
@@ -66,15 +66,15 @@
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="https://bitbucket.org/rhiokim/haroopad-download/downloads/Haroopad-v{version}-win-ia32.msi" /></FixedDownloadUrl>
-    <Name><placeholder name="Name" value="haroopad" /></Name>
+    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="https://www.itefix.net/dl/cwRsync_{version}_x86_Free.zip" /></FixedDownloadUrl>
+    <Name><placeholder name="Name" value="cwrsync" /></Name>
   </ApplicationJob>
 </Jobs>]]></SourceTemplate>
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>34181632</LastFileSize>
-    <LastFileDate>2015-02-01T21:51:07.1798357</LastFileDate>
+    <LastFileSize>3242013</LastFileSize>
+    <LastFileDate>2014-10-16T23:20:27+02:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -95,9 +95,9 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>StartEnd</VariableType>
             <Regex />
-            <Url>http://pad.haroopress.com/user.html</Url>
-            <StartText>downloads/Haroopad-v</StartText>
-            <EndText>-win-ia32.msi</EndText>
+            <Url>https://www.itefix.net/content/cwrsync-free-edition</Url>
+            <StartText>&lt;strong&gt;Name: &lt;/strong&gt;cwRsync_</StartText>
+            <EndText>_x86_Free.zip&lt;/p&gt;</EndText>
             <TextualContent />
             <Name>version</Name>
           </UrlVariable>
@@ -112,7 +112,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://bitbucket.org/rhiokim/haroopad-download/downloads/Haroopad-v{version}-win-x64.msi</TextualContent>
+            <TextualContent>""</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -124,13 +124,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\nicolas\Downloads\Haroopad-v0.13.0-win-ia32.msi</PreviousLocation>
+    <PreviousLocation>D:\nicolas\Downloads\cwRsync_5.4.1_x86_Free.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-01T21:51:07.1798357</LastUpdated>
+    <LastUpdated>2015-02-02T22:20:15.0814583+01:00</LastUpdated>
     <TargetPath>D:\nicolas\dev\chocolatey-packages\automatic\_work\</TargetPath>
-    <FixedDownloadUrl>https://bitbucket.org/rhiokim/haroopad-download/downloads/Haroopad-v{version}-win-ia32.msi</FixedDownloadUrl>
-    <Name>haroopad</Name>
+    <FixedDownloadUrl>https://www.itefix.net/dl/cwRsync_{version}_x86_Free.zip</FixedDownloadUrl>
+    <Name>cwrsync</Name>
   </ApplicationJob>
 </Jobs>

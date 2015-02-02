@@ -74,7 +74,7 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
     <LastFileSize>19887904</LastFileSize>
-    <LastFileDate>2013-12-18T23:11:42+01:00</LastFileDate>
+    <LastFileDate>2015-02-01T22:04:05.1923301</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -129,8 +129,8 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-01T22:04:05.1923301+01:00</LastUpdated>
-    <TargetPath>D:\nicolas\Downloads\</TargetPath>
+    <LastUpdated>2015-02-01T22:04:05.1923301</LastUpdated>
+    <TargetPath>D:\nicolas\dev\chocolatey-packages\automatic\_work\</TargetPath>
     <FixedDownloadUrl>http://www.instantbird.com/downloads/{version}/instantbird-{version}.en-US.win32.installer.exe</FixedDownloadUrl>
     <Name>instantbird</Name>
   </ApplicationJob>

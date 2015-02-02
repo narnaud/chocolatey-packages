@@ -74,7 +74,7 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
     <LastFileSize>193813</LastFileSize>
-    <LastFileDate>2014-05-11T07:05:08+02:00</LastFileDate>
+    <LastFileDate>2015-02-01T21:33:31.7474254</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -128,8 +128,8 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-01T21:33:31.7474254+01:00</LastUpdated>
-    <TargetPath>D:\nicolas\Downloads\</TargetPath>
+    <LastUpdated>2015-02-01T21:33:31.7474254</LastUpdated>
+    <TargetPath>D:\nicolas\dev\chocolatey-packages\automatic\_work\</TargetPath>
     <FixedDownloadUrl>https://github.com/stefansundin/altdrag/releases/download/v{version}/AltDrag-{version}.exe</FixedDownloadUrl>
     <Name>altdrag</Name>
   </ApplicationJob>
