@@ -25,7 +25,21 @@ try {
   # Remove the $zipDir directory
   Move-Item "$installDir\$zipDir\*" "$installDir" -Force
   Remove-Item "$installDir\$zipDir"
-  
+
+  # Remove any existing exe/bat files from earlier install
+  if ($env:chocolateyinstall -ne $null) {
+    $nugetBin = join-path $env:chocolateyinstall 'bin'
+    $files = get-childitem $installDir -include *.exe -recurse
+    foreach ($file in $files) {
+      try {
+          $batchFile = join-path $nugetBin ($file.Name.Replace(".exe",".bat").Replace(".EXE",".bat"))
+          if(test-path $batchFile){
+            remove-item $batchFile
+        }
+      }catch {}
+    }
+  }
+
   Write-ChocolateySuccess "$packageName"
 } catch {
   Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
