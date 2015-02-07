@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>drmemory</id>
     <title>Dr. Memory</title>
-    <version>{{PackageVersion}}</version>
+    <version>{{PackageVersion}}00</version>
     <authors>VMWare, Google</authors>
     <owners>narnaud</owners>
     <summary>Memory Debugger for Windows and Linux</summary>
