@@ -71,7 +71,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated />
-    <TargetPath>D:\nicolas\dev\chocolatey-packages\automatic\_work\</TargetPath>
+    <TargetPath>{workDir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>jhead</Name>
   </ApplicationJob>

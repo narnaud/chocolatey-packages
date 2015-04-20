@@ -121,12 +121,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\nicolas\dev\chocolatey-packages\automatic\_work\DrMemory-Windows-1.8.0-8.exe</PreviousLocation>
+    <PreviousLocation>{workDir}\DrMemory-Windows-1.8.0-8.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-07T14:02:04.951158+01:00</LastUpdated>
-    <TargetPath>D:\nicolas\dev\chocolatey-packages\automatic\_work\</TargetPath>
+    <TargetPath>{workDir}\</TargetPath>
     <FixedDownloadUrl>http://dl.bintray.com/bruening/DrMemory/DrMemory-Windows-{appVersion}.exe</FixedDownloadUrl>
     <Name>drmemory.install</Name>
   </ApplicationJob>
