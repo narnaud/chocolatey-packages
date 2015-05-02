@@ -129,7 +129,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-02T22:20:15.0814583+01:00</LastUpdated>
-    <TargetPath>D:\nicolas\dev\chocolatey-packages\automatic\_work\</TargetPath>
+    <TargetPath>{workDir}\</TargetPath>
     <FixedDownloadUrl>https://www.itefix.net/dl/cwRsync_{version}_x86_Free.zip</FixedDownloadUrl>
     <Name>cwrsync</Name>
   </ApplicationJob>

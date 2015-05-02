@@ -130,7 +130,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-01T22:04:05.1923301</LastUpdated>
-    <TargetPath>D:\nicolas\dev\chocolatey-packages\automatic\_work\</TargetPath>
+    <TargetPath>{workDir}\</TargetPath>
     <FixedDownloadUrl>http://www.instantbird.com/downloads/{version}/instantbird-{version}.en-US.win32.installer.exe</FixedDownloadUrl>
     <Name>instantbird</Name>
   </ApplicationJob>

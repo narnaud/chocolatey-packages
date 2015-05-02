@@ -129,7 +129,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-01T21:33:31.7474254</LastUpdated>
-    <TargetPath>D:\nicolas\dev\chocolatey-packages\automatic\_work\</TargetPath>
+    <TargetPath>{workDir}\</TargetPath>
     <FixedDownloadUrl>https://github.com/stefansundin/altdrag/releases/download/v{version}/AltDrag-{version}.exe</FixedDownloadUrl>
     <Name>altdrag</Name>
   </ApplicationJob>

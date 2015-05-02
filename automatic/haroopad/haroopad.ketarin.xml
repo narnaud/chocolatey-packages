@@ -129,7 +129,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-01T21:51:07.1798357</LastUpdated>
-    <TargetPath>D:\nicolas\dev\chocolatey-packages\automatic\_work\</TargetPath>
+    <TargetPath>{workDir}\</TargetPath>
     <FixedDownloadUrl>https://bitbucket.org/rhiokim/haroopad-download/downloads/Haroopad-v{version}-win-ia32.msi</FixedDownloadUrl>
     <Name>haroopad</Name>
   </ApplicationJob>

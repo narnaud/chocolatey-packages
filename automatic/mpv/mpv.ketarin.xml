@@ -132,7 +132,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-01T14:42:57.4978091</LastUpdated>
-    <TargetPath>D:\nicolas\dev\chocolatey-packages\automatic\_work\</TargetPath>
+    <TargetPath>{workDir}\</TargetPath>
     <FixedDownloadUrl>http://mpv.srsfckn.biz/mpv-i686-latest.7z</FixedDownloadUrl>
     <Name>mpv</Name>
   </ApplicationJob>

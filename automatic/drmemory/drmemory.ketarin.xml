@@ -127,7 +127,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>D:\nicolas\dev\chocolatey-packages\automatic\_work\</TargetPath>
+    <TargetPath>{workDir}\</TargetPath>
     <FixedDownloadUrl>http://dl.bintray.com/bruening/DrMemory/DrMemory-{appVersion}-Source.tar.gz</FixedDownloadUrl>
     <Name>drmemory</Name>
   </ApplicationJob>
