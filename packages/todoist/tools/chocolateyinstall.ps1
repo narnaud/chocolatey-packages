@@ -5,7 +5,7 @@ $url = 'https://s3-us-west-1.amazonaws.com/windows.todoist.com/Todoist_for_Windo
 
 $packageArgs = @{
   packageName   = $packageName
-  fileType      = 'EXE'
+  fileType      = 'exe'
   url           = $url
 
   silentArgs    ='/VERYSILENT'
