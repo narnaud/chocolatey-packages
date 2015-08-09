@@ -17,7 +17,7 @@ Achieve more everyday in your work and your daily life.
     <packageSourceUrl>https://github.com/narnaud/chocolatey-packages</packageSourceUrl>
     <tags>todoist admin SPACE_SEPARATED</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>http://cdn.rawgit.com/narnaud/chocolatey-packages/master/icons/wunderlist.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/narnaud/chocolatey-packages/master/icons/todoist.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
