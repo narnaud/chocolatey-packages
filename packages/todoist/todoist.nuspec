@@ -15,7 +15,7 @@ Achieve more everyday in your work and your daily life.
     </description>
     <projectUrl>http://todoist.com</projectUrl>
     <packageSourceUrl>https://github.com/narnaud/chocolatey-packages</packageSourceUrl>
-    <tags>todoist admin SPACE_SEPARATED</tags>
+    <tags>todoist todo task manager</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://cdn.rawgit.com/narnaud/chocolatey-packages/master/icons/todoist.png</iconUrl>
   </metadata>
