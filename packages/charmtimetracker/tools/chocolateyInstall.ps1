@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 
 $packageName = 'charmtimetracker'
-$url = 'https://github.com/KDAB/Charm/releases/download/1.9.0/Charm.1.9.0.exe'
+$url = 'https://github.com/KDAB/Charm/releases/download/1.10.0/Charm.1.10.0.exe'
 
 $packageArgs = @{
   packageName   = $packageName

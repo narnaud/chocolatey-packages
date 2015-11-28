@@ -4,7 +4,7 @@
   <metadata>
     <id>charmtimetracker</id>
     <title>Charm Time Tracker</title>
-    <version>1.9.0</version>
+    <version>1.10.0</version>
     <authors>KDAB</authors>
     <owners>narnaud</owners>
     <summary>Time tracker application</summary>
