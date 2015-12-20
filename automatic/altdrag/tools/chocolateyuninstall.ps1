@@ -1,10 +1,9 @@
-﻿$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 
-$packageName = 'todoist'
-$softwareName = 'Todoist'
+$packageName = 'altdrag'
+$softwareName = 'AltDrag' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
 $installerType = 'EXE' 
-
-$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$silentArgs = '/S'           # NSIS
 $validExitCodes = @(0)
 
 $uninstalled = $false
