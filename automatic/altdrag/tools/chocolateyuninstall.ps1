@@ -1,9 +1,10 @@
-﻿$ErrorActionPreference = 'Stop'; # stop on all errors
+﻿$ErrorActionPreference = 'Stop';
 
 $packageName = 'altdrag'
-$softwareName = 'AltDrag' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
+$softwareName = 'AltDrag'
 $installerType = 'EXE' 
-$silentArgs = '/S'           # NSIS
+
+$silentArgs = '/S'
 $validExitCodes = @(0)
 
 $uninstalled = $false
