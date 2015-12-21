@@ -34,11 +34,3 @@ if ($key.Count -eq 1) {
   Write-Warning "Please alert package maintainer the following keys were matched:"
   $key | % {Write-Warning "- $_.DisplayName"}
 }
-
-
-## OTHER HELPERS
-## https://github.com/chocolatey/choco/wiki/HelpersReference
-#Uninstall-ChocolateyZipPackage
-#Uninstall-BinFile # Only needed if you added one in the installer script, choco will remove the ones it added automatically.
-#remove any shortcuts you added
-

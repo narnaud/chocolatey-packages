@@ -1,6 +1,6 @@
-﻿$ErrorActionPreference = 'Stop'; # stop on all errors
+﻿$ErrorActionPreference = 'Stop';
 
-$packageName= 'charmtimetracker' # arbitrary name for the package, used in messages
+$packageName= 'charmtimetracker'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'https://github.com/KDAB/Charm/releases/download/1.10.0/Charm.1.10.0.exe'
 
