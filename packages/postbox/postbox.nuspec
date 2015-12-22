@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>postbox</id>
+    <title>Postbox</title>
+    <version>4.0.8</version>
+    <authors>Postbox Inc</authors>
+    <owners>narnaud</owners>
+    <summary>Postbox mail client</summary>
+    <description>
+Postbox is powerful, intuitive, ultra-customizable, speedy, and dead set on saving you time. It is derived from Thunderbird.
+
+You can find a list of features here: https://www.postbox-inc.com/features
+
+**Please Note**: This software is available as a 30-day trial, you must purchase it at the end of the trial period if you want to continue using it.
+    </description>
+    <projectUrl>https://www.postbox-inc.com</projectUrl>
+    <packageSourceUrl>https://github.com/narnaud/chocolatey-packages</packageSourceUrl>
+    <tags>postbox admin mail client</tags>
+    <licenseUrl>https://www.postbox-inc.com/legal</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://cdn.rawgit.com/narnaud/chocolatey-packages/master/icons/postbox.png</iconUrl>
+    <releaseNotes>https://www.postbox-inc.com/product/releasenotes</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
