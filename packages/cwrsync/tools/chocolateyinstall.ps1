@@ -20,4 +20,4 @@ Set-Content -Path ("$toolsDir\$zipDir\ssh-keygen.exe.ignore") -Value $null
 Set-Content -Path ("$toolsDir\$zipDir\rsync.exe.ignore") -Value $null
 
 # Install a script that add path to rsync executables before launching it
-Install-BinFile -Name rsync -Path $toolsDir
+Install-BinFile -Name rsync -Path $toolsDir\rsync.bat
