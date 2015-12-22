@@ -1,8 +1,7 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="f699e7da-222c-478e-986d-943f1856f429">
-    <SourceTemplate><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Jobs>
+    <SourceTemplate><![CDATA[<Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
@@ -73,13 +72,15 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>19933488</LastFileSize>
-    <LastFileDate>2015-02-01T14:42:57.4978091</LastFileDate>
+    <LastFileSize>11141724</LastFileSize>
+    <LastFileDate>2015-12-11T20:36:39+01:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -95,12 +96,10 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>StartEnd</VariableType>
             <Regex />
-            <Url>http://mpv.io/installation/</Url>
-            <StartText>The current stable release is
-          &lt;b&gt;
-            v</StartText>
-            <EndText>
-          &lt;/b&gt;</EndText>
+            <Url>https://github.com/mpv-player/mpv/releases</Url>
+            <StartText>&lt;span class="css-truncate-target"&gt;v</StartText>
+            <EndText>&lt;/span&gt;
+</EndText>
             <TextualContent />
             <Name>version</Name>
           </UrlVariable>
@@ -115,8 +114,25 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://mpv.srsfckn.biz/mpv-x86_64-latest.7z</TextualContent>
+            <TextualContent>https://mpv.srsfckn.biz/mpv-x86_64-{appVersion:replace:-:}.7z</TextualContent>
             <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>appVersion</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>https://mpv.srsfckn.biz/</Url>
+            <StartText>&lt;tr class="latest"&gt;
+                                &lt;td&gt;</StartText>
+            <EndText>&lt;/td&gt;</EndText>
+            <Name>appVersion</Name>
           </UrlVariable>
         </value>
       </item>
@@ -127,13 +143,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\nicolas\Downloads\mpv-i686-latest.7z</PreviousLocation>
+    <PreviousLocation>C:\nicolas\dev\chocolatey-packages\automatic\_work\mpv-i686-20151211.7z</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-01T14:42:57.4978091</LastUpdated>
+    <LastUpdated>2015-12-22T08:02:42.6717643+01:00</LastUpdated>
     <TargetPath>{workDir}\</TargetPath>
-    <FixedDownloadUrl>http://mpv.srsfckn.biz/mpv-i686-latest.7z</FixedDownloadUrl>
+    <FixedDownloadUrl>https://mpv.srsfckn.biz/mpv-i686-{appVersion:replace:-:}.7z</FixedDownloadUrl>
     <Name>mpv</Name>
   </ApplicationJob>
 </Jobs>

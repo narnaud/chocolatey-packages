@@ -1,5 +1,15 @@
-﻿$packageName = 'mpv'
-$url = '{{DownloadUrl}}'
-$url64 = '{{DownloadUrlx64}}'
+﻿$ErrorActionPreference = 'Stop';
 
-Install-ChocolateyZipPackage "$packageName" "$url" "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" "$url64"
+$packageName= 'mpv'
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$url        = '{{DownloadUrl}}'
+$url64      = '{{DownloadUrlx64}}'
+
+$packageArgs = @{
+  packageName   = $packageName
+  unzipLocation = $toolsDir
+  url           = $url
+  url64bit      = $url64
+}
+
+Install-ChocolateyZipPackage @packageArgs
