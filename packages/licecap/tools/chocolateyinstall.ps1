@@ -1,15 +1,18 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
-$packageName = 'licecap'
-$url = 'http://www.cockos.com/licecap/licecap125-install.exe'
+$packageName= 'licecap'
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$url        = 'http://www.cockos.com/licecap/licecap126-install.exe'
 
 $packageArgs = @{
   packageName   = $packageName
+  unzipLocation = $toolsDir
   fileType      = 'exe'
   url           = $url
 
-  silentArgs    ='/S'
-  validExitCodes= @(0)
+  silentArgs   = '/S'
+
+  softwareName  = 'licecap*'
 }
 
 Install-ChocolateyPackage @packageArgs
