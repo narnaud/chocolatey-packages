@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>haroopad</id>
@@ -14,12 +15,19 @@ Haroopad is a markdown enabled document processor for creating web-friendly docu
 You can author professional-looking documents of various formats: blog posts, slides, presentations, reports, email and more.
 
 Haroopad gives you the same editing experience regardless of the platform you are working on. It runs on all three major operating systems: Windows, Mac OS X, and Linux.
+
+**Please Note**: This is an automatically updated package. If you find it is 
+out of date by more than a day or two, please contact the maintainer(s) and
+let them know the package is no longer updating correctly.
     </description>
     <projectUrl>http://pad.haroopress.com/user.html</projectUrl>
-    <tags>editor markdown text</tags>
+    <packageSourceUrl>https://github.com/narnaud/chocolatey-packages</packageSourceUrl>
+    <docsUrl>http://pad.haroopress.com/page.html</docsUrl>
+    <tags>haroopad admin editor markdown text</tags>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://cdn.rawgit.com/narnaud/chocolatey-packages/master/icons/haroopad.png</iconUrl>
+    <releaseNotes>http://pad.haroopress.com/page.html?f=release-notes</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
