@@ -1,6 +1,18 @@
-﻿$packageName = 'instantbird'
-$installerType = 'exe'
-$url = '{{DownloadUrl}}'
-$silentArgs = '/S'
+﻿$ErrorActionPreference = 'Stop';
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"
+$packageName= 'instantbird'
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$url        = '{{DownloadUrl}}'
+
+$packageArgs = @{
+  packageName   = $packageName
+  unzipLocation = $toolsDir
+  fileType      = 'exe'
+  url           = $url
+
+  silentArgs   = '/S'
+
+  softwareName  = 'Instantbird*'
+}
+
+Install-ChocolateyPackage @packageArgs
