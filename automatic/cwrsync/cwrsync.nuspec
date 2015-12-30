@@ -4,7 +4,7 @@
   <metadata>
     <id>cwrsync</id>
     <title>cwRsync Free edition</title>
-    <version>5.5.0</version>
+    <version>{{PackageVersion}}</version>
     <authors>ITeFix</authors>
     <owners>webcoyote, narnaud</owners>
     <summary>cwRsync is a packaging of Rsync for Windows</summary>
