@@ -21,7 +21,7 @@ In addition to .GIF, LICEcap supports its own native lossless .LCF file format, 
     <tags>licecap admin screen capture screencast</tags>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>http://cdn.rawgit.com/narnaud/chocolatey-packages/master/icons/licecap.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/narnaud/chocolatey-packages/master/icons/licecap-256.png</iconUrl>
     <releaseNotes>http://www.cockos.com/licecap/</releaseNotes>
   </metadata>
   <files>
