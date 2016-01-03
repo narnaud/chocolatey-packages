@@ -19,7 +19,7 @@ out of date by more than a day or two, please contact the maintainer(s) and
 let them know the package is no longer updating correctly.
 
     </description>
-    <projectUrl>http://www.tver-soft.org/programs/qtbinpatcher</projectUrl>
+    <projectUrl>https://github.com/tver-soft/QtBinPatcher</projectUrl>
     <packageSourceUrl>https://github.com/narnaud/chocolatey-packages</packageSourceUrl>
     <projectSourceUrl>https://github.com/tver-soft/QtBinPatcher</projectSourceUrl>
     <tags>qtbinpatcher qt dev patch qmake</tags>
