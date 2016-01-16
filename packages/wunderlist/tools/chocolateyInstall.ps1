@@ -1,6 +1,18 @@
-﻿$packageName = 'wunderlist'
-$installerType = 'msi'
-$url = 'https://www.wunderlist.com/download/windows7'
-$silentArgs = '/quiet'
+﻿$ErrorActionPreference = 'Stop';
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"
+$packageName= 'wunderlist'
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$url        = 'https://www.wunderlist.com/download/windows7'
+
+$packageArgs = @{
+  packageName   = $packageName
+  unzipLocation = $toolsDir
+  fileType      = 'EXE'
+  url           = $url
+
+  silentArgs   = '/S'
+
+  softwareName  = 'Wunderlist*'
+}
+
+Install-ChocolateyPackage @packageArgs
