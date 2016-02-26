@@ -4,7 +4,7 @@
   <metadata>
     <id>licecap</id>
     <title>LICEcap</title>
-    <version>1.26</version>
+    <version>1.26.0.20160226</version>
     <authors>Cockos Incorporated</authors>
     <owners>narnaud</owners>
     <summary>Simple animated screen captures</summary>
@@ -18,7 +18,7 @@ In addition to .GIF, LICEcap supports its own native lossless .LCF file format, 
     <projectUrl>http://www.cockos.com/licecap</projectUrl>
     <packageSourceUrl>https://github.com/narnaud/chocolatey-packages</packageSourceUrl>
     <projectSourceUrl>https://github.com/justinfrankel/licecap</projectSourceUrl>
-    <tags>licecap admin screen capture screencast</tags>
+    <tags>licecap admin screen capture screencast gif</tags>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://cdn.rawgit.com/narnaud/chocolatey-packages/master/icons/licecap-256.png</iconUrl>
