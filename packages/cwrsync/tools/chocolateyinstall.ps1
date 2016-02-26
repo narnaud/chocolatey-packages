@@ -2,7 +2,7 @@
 
 $packageName= 'cwrsync'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = '{{DownloadUrl}}'
+$url        = 'https://www.itefix.net/dl/cwRsync_5.5.0_x86_Free.zip'
 
 $packageArgs = @{
   packageName   = $packageName
