@@ -4,7 +4,7 @@
   <metadata>
     <id>charmtimetracker</id>
     <title>Charm Time Tracker</title>
-    <version>1.10.0</version>
+    <version>1.11.1</version>
     <authors>KDAB</authors>
     <owners>narnaud</owners>
     <summary>Time tracker application</summary>
@@ -20,10 +20,9 @@ Charm has been developed by Mirko Boehm (mirko@kde.org), as a work of fun and ex
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://cdn.rawgit.com/narnaud/chocolatey-packages/master/icons/charmtimetracker.png</iconUrl>
     <projectSourceUrl>https://github.com/KDAB/Charm</projectSourceUrl>
-    <releaseNotes>https://github.com/KDAB/Charm/releases/tag/1.10.0</releaseNotes>
+    <releaseNotes>https://github.com/KDAB/Charm/releases/tag/1.11.1</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>
 </package>
-    

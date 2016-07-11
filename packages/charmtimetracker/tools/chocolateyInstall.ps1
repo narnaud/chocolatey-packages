@@ -2,7 +2,7 @@
 
 $packageName= 'charmtimetracker'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/KDAB/Charm/releases/download/1.10.0/Charm.1.10.0.exe'
+$url        = 'https://github.com/KDAB/Charm/releases/download/1.11.1/Charm.1.11.1.exe'
 
 $packageArgs = @{
   packageName   = $packageName
