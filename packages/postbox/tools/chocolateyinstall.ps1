@@ -2,7 +2,7 @@
 
 $packageName= 'postbox'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://s3.amazonaws.com/download.getpostbox.com/installers/4.0.8/1_6adf8a6160ac58891fe0f1b1485534368a9837ca/postbox-4.0.8-win32.exe'
+$url        = 'https://s3.amazonaws.com/download.getpostbox.com/installers/5.0.9/1_53cd26fb086aa4cbab01f5340f7dedad52bfc2ba/postbox-5.0.9-win32.exe'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -10,10 +10,12 @@ $packageArgs = @{
   fileType      = 'exe'
   url           = $url
 
-  silentArgs   = '/S'
-  validExitCodes= @(0)
-
   softwareName  = 'Postbox*'
+
+  checksum      = '288C1C5AA89B786E20CC4A3ADC6F2C28701421246B8A2A738CB271B5CA91AEF6'
+  checksumType  = 'sha256'
+
+  silentArgs   = '/S'
 }
 
 Install-ChocolateyPackage @packageArgs
