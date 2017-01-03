@@ -11,7 +11,7 @@
     <title>ptime</title>
     <authors>Jem Berkes</authors>
     <projectUrl>http://www.pc-tools.net/win32/ptime/</projectUrl>
-    <tags>ptime time command</tags>
+    <tags>ptime time command cli</tags>
     <summary>Accurately measure program execution time</summary>
     <description>
 ptime will run any specified command and parameters, and measure the execution time (run time) in seconds, accurate to 5 millisecond or better. It is an automatic process timer, or program timer used for benchmark purposes.
