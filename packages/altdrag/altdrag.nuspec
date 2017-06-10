@@ -4,7 +4,7 @@
   <metadata>
     <id>altdrag</id>
     <title>AltDrag</title>
-    <version>{{PackageVersion}}</version>
+    <version>1.1.0.20170610</version>
     <authors>Stefan Sundin</authors>
     <owners>narnaud</owners>
     <summary>Easily drag windows when pressing the alt key</summary>
