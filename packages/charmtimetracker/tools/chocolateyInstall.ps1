@@ -2,13 +2,15 @@
 
 $packageName= 'charmtimetracker'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/KDAB/Charm/releases/download/1.11.4/Charm.1.11.4.exe'
+$url        = 'https://github.com/KDAB/Charm/releases/download/1.12.0/Charm-1.12.0-32bit.exe'
+$url64      = 'https://github.com/KDAB/Charm/releases/download/1.12.0/Charm-1.12.0-64bit.exe'
 
 $packageArgs = @{
   packageName   = $packageName
   unzipLocation = $toolsDir
   fileType      = 'exe'
   url           = $url
+  url64bit      = $url64
 
   softwareName  = 'Charm*'
 
@@ -17,5 +19,4 @@ $packageArgs = @{
 
   silentArgs   = '/S'
 }
-
 Install-ChocolateyPackage @packageArgs

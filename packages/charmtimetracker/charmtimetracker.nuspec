@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>charmtimetracker</id>
-    <version>1.11.4</version>
+    <version>1.12.0</version>
     <packageSourceUrl>https://github.com/narnaud/chocolatey-packages</packageSourceUrl>
     <owners>narnaud</owners>
 
@@ -22,7 +22,7 @@ Charm is a program for OS X, Linux and Windows that helps to keep track of time.
 
 Charm has been developed by Mirko Boehm (mirko@kde.org), as a work of fun and experimentation. The current maintainers are Frank Osterfeld and Guillermo A. Amaral B.
 	</description>
-    <releaseNotes>https://github.com/KDAB/Charm/releases/tag/1.11.1</releaseNotes>
+    <releaseNotes>https://github.com/KDAB/Charm/releases/tag/1.12.0</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
