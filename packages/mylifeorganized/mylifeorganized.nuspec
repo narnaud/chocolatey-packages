@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>mylifeorganized</id>
+    <version>5.0.4</version>
+    <packageSourceUrl>https://github.com/narnaud/chocolatey-packages</packageSourceUrl>
+    <owners>narnaud</owners>
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>MyLifeOrganized</title>
+    <authors>MyLifeOrganized</authors>
+    <projectUrl>https://www.mylifeorganized.net</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/narnaud/chocolatey-packages/master/icons/mylifeorganized.png</iconUrl>
+    <tags>MLO MyLifeOrganized task manager todo lists</tags>
+    <summary>Task manager for Windows</summary>
+    <description>
+![Screenshot of MyLifeOrganized](https://www.mylifeorganized.net/i/products/notebook.png)
+
+MyLifeOrganized is a task manager for Windows, it provides some unique features:
+  - Outline: Organize your tasks into projects and break down large tasks into subtasks until you get reasonably sized actions.
+  - Projects: Mark a large task as a project to track its overall progress. Open the Projects view to easily review all your projects.
+  - Workspaces: The Workspaces (tabs) are used to store and quickly access a particular configuration for the selected view, additional filter, zoom, selected task etc.
+  - Markdown Support: Add headings, lists, bold, italic, links, images and other elements to task notes lightweight and easy-to-use markup language.
+  - Custom Views: You can use default predefined views or create your own views using built-in MLO advanced features for filtering, sorting and grouping your tasks.
+  - Sync with Google Calendar: MLO and Google Calendar can mirror each other. You can see MLO tasks distributed over the calendar and visually assess your load.
+	</description>
+    <releaseNotes>https://www.mylifeorganized.net/change-log.shtml</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
